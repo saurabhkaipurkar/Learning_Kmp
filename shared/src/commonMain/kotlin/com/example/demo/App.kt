@@ -25,10 +25,7 @@ import demo.shared.generated.resources.Res
 import demo.shared.generated.resources.compose_multiplatform
 
 @Composable
-fun App(
-    batteryManager: BatteryManager,
-    greeting: Greeting
-) {
+fun App() {
     MaterialTheme {
         TodoScreen()
     }
